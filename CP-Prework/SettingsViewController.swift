@@ -44,7 +44,7 @@ class SettingsViewController: UITableViewController {
         switch settingsList[indexPath.row] {
         case "Default Percentage":
             let segCont = UISegmentedControl(items: ["15%","18%","20%"])
-            segCont.selectedSegmentIndex = 0
+            segCont.selectedSegmentIndex = UserDefaults.standard.integer(forKey: "defaultPercentageIndex") 
             segCont.addTarget(self, action: #selector(self.defaultTipChanged(_:)), for: .valueChanged)
             cell.accessoryView = segCont
         default:

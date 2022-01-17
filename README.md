@@ -1,10 +1,10 @@
 # Pre-work - *Tip Calculator*
 
-**Name of your app** is a tip calculator application for iOS.
+**Tip** is a tip calculator application for iOS.
 
 Submitted by: **Tyler Dakin**
 
-Time spent: **1** hour spent for content up to commit "6d4ffb6".
+Time spent: **1** hour spent for content up to commit "6d4ffb6" (the required content).
 
 ## User Stories
 
@@ -24,21 +24,16 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+## Demo
+![Demo Gif of Tip Calculator](https://raw.githubusercontent.com/tylerdak/CP-Prework/main/demo.gif)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Going back to UIKit after doing some work with SwiftUI for a while is difficult. I've noticed some properties of certain frameworks have been deprecated in newer versions, such as UITableViewCell.textLabel which created a challenge when I was doing some work for the Settings page. I'm interested to see how they've replaced it using UIListContentConfiguration.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2022 Tyler Dakin
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

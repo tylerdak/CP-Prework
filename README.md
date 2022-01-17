@@ -1,10 +1,10 @@
 # Pre-work - *Tip Calculator*
 
-**Tip** is a tip calculator application for iOS.
+**Tipsy** is a tip calculator application for iOS.
 
 Submitted by: **Tyler Dakin**
 
-Time spent: **1** hour spent for content up to commit "6d4ffb6" (the required content).
+Time spent: **1** hour spent for content up to commit "6d4ffb6" (the required content).
 
 ## User Stories
 
@@ -18,11 +18,14 @@ The following **optional** features are implemented:
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [X] Settings Menu (implemented via Navigation Controller)
+	- [X] Default Percentage option
+	- [ ] Currency option
+	- [ ] Dark Mode option
 
 ## Demo
 ![Demo Gif of Tip Calculator](https://raw.githubusercontent.com/tylerdak/CP-Prework/main/demo.gif)

@@ -40,8 +40,22 @@ class SettingsViewController: UITableViewController {
         
         cell.textLabel?.text = settingsList[indexPath.row]
         
+        // Setup accessory view
+        switch settingsList[indexPath.row] {
+        case "Default Percentage":
+            let segCont = UISegmentedControl(items: ["15%","18%","20%"])
+            segCont.selectedSegmentIndex = 0
+            segCont.addTarget(self, action: #selector(self.defaultTipChanged(_:)), for: .valueChanged)
+            cell.accessoryView = segCont
+        default:
+            cell.accessoryView = nil
+        }
         
         return cell
+    }
+    
+    @objc func defaultTipChanged(_ sender: UISegmentedControl) {
+        UserDefaults.standard.set(sender.selectedSegmentIndex, forKey: "defaultPercentageIndex")
     }
 }
 

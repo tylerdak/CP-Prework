@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0426F412790B61F0083A292 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0426F402790B61F0083A292 /* SettingsViewController.swift */; };
 		D0D10D63278E01E3009E5FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D10D62278E01E3009E5FF2 /* AppDelegate.swift */; };
 		D0D10D65278E01E3009E5FF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D10D64278E01E3009E5FF2 /* SceneDelegate.swift */; };
 		D0D10D67278E01E3009E5FF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D10D66278E01E3009E5FF2 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0426F402790B61F0083A292 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D0D10D5F278E01E3009E5FF2 /* CP-Prework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CP-Prework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D10D62278E01E3009E5FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0D10D64278E01E3009E5FF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				D0D10D62278E01E3009E5FF2 /* AppDelegate.swift */,
 				D0D10D64278E01E3009E5FF2 /* SceneDelegate.swift */,
 				D0D10D66278E01E3009E5FF2 /* ViewController.swift */,
+				D0426F402790B61F0083A292 /* SettingsViewController.swift */,
 				D0D10D68278E01E3009E5FF2 /* Main.storyboard */,
 				D0D10D6B278E01E5009E5FF2 /* Assets.xcassets */,
 				D0D10D6D278E01E5009E5FF2 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				D0D10D67278E01E3009E5FF2 /* ViewController.swift in Sources */,
 				D0D10D63278E01E3009E5FF2 /* AppDelegate.swift in Sources */,
 				D0D10D65278E01E3009E5FF2 /* SceneDelegate.swift in Sources */,
+				D0426F412790B61F0083A292 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +443,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K5Y29Z4JQZ;
+				DEVELOPMENT_TEAM = X72S6AGP32;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CP-Prework/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -467,7 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K5Y29Z4JQZ;
+				DEVELOPMENT_TEAM = X72S6AGP32;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CP-Prework/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
